@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import HeroSection from './components/HeroSection'
 import ServicesCarousel from './components/ServicesCarousel'
+import StatsSection from './components/StatsSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import FloatingParticles from './components/FloatingParticles'
@@ -19,6 +20,7 @@ function App() {
       {/* Main content sections */}
       <HeroSection />
       <ServicesCarousel />
+      <StatsSection />
       <ContactSection />
       <Footer />
     </motion.div>
